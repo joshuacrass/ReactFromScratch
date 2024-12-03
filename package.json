@@ -1,0 +1,18 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "author": "Joshua Crass <joshua.crass@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "process": "^0.11.10"
+  }
+}
