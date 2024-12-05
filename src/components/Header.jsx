@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import Navbar from "./Navbar";
 
 const StyledHeader = styled.div`
   display: flex;
@@ -9,24 +10,11 @@ const StyledHeader = styled.div`
   padding: 20px;
 `;
 
-const Navbar = styled.nav`
-  display: flex;
-  gap: 20px;
-`;
-
-const StyledLink = styled.span`
-  font-size: 20px;
-`;
-
 const Header = () => {
   return (
     <StyledHeader>
       <h1>Header</h1>
-      <Navbar>
-        <StyledLink>Home</StyledLink>
-        <StyledLink>About</StyledLink>
-        <StyledLink>Login</StyledLink>
-      </Navbar>
+      <Navbar />
     </StyledHeader>
   );
 };
